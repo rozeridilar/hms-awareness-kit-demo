@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.huawei.awarenesskitsuperdemo">
+    <!-- Location permission, which is sensitive. After the permission is declared, you need to dynamically apply for it in the code. -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- Location permission. If only the IP address-based time capture function is used, you can declare only this permission. -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- If your app uses the barrier capability and runs on Android 10 or later, you need to add the background location access permission, which is also a sensitive permission. -->
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH" /> <!-- Behavior detection permission (Android 10 or later). This permission is sensitive and needs to be dynamically applied for in the code after being declared. -->
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" /> <!-- Behavior detection permission (Android 9). This permission is sensitive and needs to be dynamically applied for in the code after being declared. -->
+    <uses-permission android:name="com.huawei.hms.permission.ACTIVITY_RECOGNITION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".capture.weather.WeatherAwarenessActivity" />
+        <activity android:name=".capture.ambientlight.AmbientLightAwarenessActivity" />
+        <activity android:name=".capture.headset.HeadsetAwarenessActivity" />
+        <activity android:name=".capture.car.CarStereoAwarenessActivity" />
+        <activity android:name=".capture.behavior.BehaviorAwarenessActivity" />
+        <activity android:name=".capture.location.LocationAwarenessActivity" />
+        <activity android:name=".capture.time.TimeAwarenessActivity" />
+        <activity android:name=".capture.beacon.BeaconAwarenessActivity" />
+
+        <activity android:name=".barrier.headset.HeadsetBarrierActivity"/>
+        <activity android:name=".barrier.time.TimeBarrierActivity"/>
+        <activity android:name=".barrier.location.LocationBarrierActivity"/>
+        <activity android:name=".barrier.behavior.BehaviorBarrierActivity"/>
+        <activity android:name=".barrier.beacon.BeaconBarrierActivity"/>
+        <activity android:name=".barrier.car.CarStereoBarrierActivity"/>
+        <activity android:name=".barrier.ambientlight.AmbientLightBarrierActivity"/>
+
+        <meta-data
+            android:name="com.huawei.hms.client.appid"
+            android:value="102390485" />
+    </application>
+
+</manifest>

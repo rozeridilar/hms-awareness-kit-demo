@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Awareness Kit Super Demo</string>
+
+    <string name="text_headphone_state">Headphone State</string>
+    <string name="text_weather">Weather</string>
+    <string name="text_places">Places</string>
+    <string name="text_user_activity">User Activity</string>
+    <string name="text_location">Location</string>
+    <string name="text_beacons">Beacons</string>
+    <string name="text_headphone_fence">Headphone Fence</string>
+    <string name="text_detected_activity_fence">Detected Activity Fence</string>
+    <string name="text_location_fence">Location Fence</string>
+    <string name="text_time_fence">Time Fence</string>
+    <string name="text_beacon_fence">Beacon Fence</string>
+
+    <string name="text_time_awareness">Capture : Time Awareness</string>
+    <string name="text_location_state">Capture : Location Awareness</string>
+    <string name="text_behavior_state">Capture : Behavior Awareness</string>
+    <string name="text_beacon_state">Capture : Beacon Awareness</string>
+    <string name="text_headset_state">Capture : Headset Awareness</string>
+    <string name="text_bluetooth_car_stereo_state">Capture : Bluetooth Car Stereo Awareness</string>
+    <string name="text_ambient_light_state">Capture : Ambient Light Awareness</string>
+    <string name="text_weather_state">Capture : Weather Awareness</string>
+
+    <string name="text_barrier_time_awareness">Barrier : Time Awareness</string>
+    <string name="text_barrier_location_state">Barrier : Location Awareness</string>
+    <string name="text_barrier_behavior_state">Barrier : Behavior Awareness</string>
+    <string name="text_barrier_beacon_state">Barrier : Beacon Awareness</string>
+    <string name="text_barrier_headset_state">Barrier : Headset Awareness</string>
+    <string name="text_barrier_bluetooth_car_stereo_state">Barrier : Bluetooth Car Stereo Awareness</string>
+    <string name="text_barrier_ambient_light_state">Barrier : Ambient Light Awareness</string>
+    <string name="text_barrier_weather_state">Barrier : Weather Awareness</string>
+
+    <string name="error_general">Oops, there was an error@</string>
+
+    <string name="text_coordinates">Coordinates: %s</string>
+    <string name="text_accuracy">Accuracy: %.2f</string>
+    <string name="text_altitude">Altitude: %.2f</string>
+
+    <string name="text_activity_time">Activity Start: %s</string>
+    <string name="text_elapsed_time">Elapsed Time: %s</string>
+    <string name="text_most_probable_activity" formatted="false">Most Probable Activity: %s . Confidence: %d</string>
+    <string name="text_probable_activities">Probable Activities: %s</string>
+    <string name="text_running_confidence">Confidence User is Running: %.2f</string>
+
+    <string name="activity_unknown">Unknown</string>
+    <string name="activity_in_vehicle">In Vehicle</string>
+    <string name="activity_on_bicycle">On Bicycle</string>
+    <string name="activity_on_foot">On Foot</string>
+    <string name="activity_running">Running</string>
+    <string name="activity_still">Still</string>
+    <string name="activity_tilting">Tilting</string>
+    <string name="activity_walking">Walking</string>
+
+    <string name="awareness_addBarrier">add Barrier(HeadsetBarrier.connecting)</string>
+    <string name="awareness_addCombinationBarrier">add combination Barrier</string>
+    <string name="awareness_addBarrier_time">add barier</string>
+</resources>
